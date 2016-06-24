@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 var start = function (time) {
-  tictok(time*60);
   thistime.time = time;
+  tictok(time*60);
   picktimediv.style.display = 'none';
 }
 
